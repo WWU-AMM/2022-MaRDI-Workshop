@@ -7,4 +7,6 @@
 .. description:
 .. type: text
 
-Write your page here.
+# Registration
+
+The registration will open soon.

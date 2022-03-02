@@ -8,4 +8,4 @@
 .. type: text
 .. pagekind: main_index
 
-Write your page here.
+The topic of this workshop is.

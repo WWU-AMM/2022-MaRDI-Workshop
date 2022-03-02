@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "WORKSHOP_AUTHOR"  # (translatable)
-BLOG_TITLE = "WORKSHOP_TITLE"  # (translatable)
+BLOG_TITLE = "MaRDI Workshop on Scientific Computing"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://WORKSHOP_URL/"
@@ -141,7 +141,12 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (("/registration/", "Registration"),),
+    DEFAULT_LANG: (
+        ("/registration/", "Registration"),
+        ("/program/", "Program"),
+        ("/venue/", "Venue"),
+        ("/contact/", "Contact"),
+    ),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
