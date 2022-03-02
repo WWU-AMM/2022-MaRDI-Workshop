@@ -141,11 +141,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
+    DEFAULT_LANG: (("/pages/registration/", "Registration"),),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
@@ -233,12 +229,8 @@ THEME_CONFIG = {
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
-POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
-)
+# this is only needed for blogs
+POSTS = ()
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
@@ -310,12 +302,7 @@ TIMEZONE = "Europe/Berlin"
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": [".rst", ".txt"],
     "markdown": [".md", ".mdown", ".markdown"],
-    "textile": [".textile"],
-    "txt2tags": [".t2t"],
-    "bbcode": [".bb"],
-    "wiki": [".wiki"],
     "ipynb": [".ipynb"],
     "html": [".html", ".htm"],
     # PHP files are rendered the usual way (i.e. with the full templates).
@@ -1352,7 +1339,10 @@ MARKDOWN_EXTENSIONS = [
 
 # Special settings to disable only parts of the indexes plugin.
 # Use with care.
+
+# only used for blogs
 # DISABLE_INDEXES = False
+
 # DISABLE_MAIN_ATOM_FEED = False
 # DISABLE_MAIN_RSS_FEED = False
 
