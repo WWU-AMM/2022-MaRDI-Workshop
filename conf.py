@@ -150,14 +150,8 @@ NAVIGATION_LINKS = {
 NAVIGATION_ALT_LINKS = {DEFAULT_LANG: ()}
 
 # Name of the theme to use.
-THEME = "canterville"
-LOGO_URL = "https://getnikola.com/assets/img/logo.svg"
-GLOBAL_CONTEXT = {
-    "TWITTER_URL": None,
-    "GITHUB_URL": None,
-    "LINKEDIN_URL": None,
-    "BANNER_URL": "header-bg.webp",
-}
+THEME = "base-jinja"
+LOGO_URL = "/images/MM_Logo_2018_rgb.svg"
 
 
 # A theme color. In default themes, it might be displayed by some browsers as
