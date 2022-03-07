@@ -1,0 +1,4 @@
+Sitemap: https://WORKSHOP_URL/sitemapindex.xml
+
+User-Agent: *
+Host: WORKSHOP_URL
