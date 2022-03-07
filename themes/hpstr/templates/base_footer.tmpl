@@ -2,8 +2,14 @@
 <%namespace name="base" file="base_helper.tmpl" import="*"/>
 
 <%def name="html_footer()">
+
     %if content_footer:
     <div class="footer-wrapper">
+        <div id="footer-logos">
+            %for url, text in FOOTER_LOGOS:
+                <img src="${url}" alt="${text}"></img>
+            %endfor
+        </div>
         <footer role="contentinfo">
             <p>${content_footer}</p>
             ${template_hooks['page_footer']()}

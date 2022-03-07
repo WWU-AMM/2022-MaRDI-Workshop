@@ -89,3 +89,9 @@ nav ul li {
 nav ul {
   text-align: center;
 }
+
+#footer-logos img {
+        object-fit: cover;
+        max-height: 100px;
+        margin: 0 40px 0 40px;
+    }
