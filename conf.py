@@ -155,8 +155,9 @@ NAVIGATION_LINKS = {
 NAVIGATION_ALT_LINKS = {DEFAULT_LANG: ()}
 
 # Name of the theme to use.
-THEME = "base-jinja"
-LOGO_URL = "/images/MM_Logo_2018_rgb.svg"
+THEME = "hpstr"
+
+# LOGO_URL = "/images/MM_Logo_2018_rgb.svg"
 
 
 # A theme color. In default themes, it might be displayed by some browsers as
@@ -1409,3 +1410,6 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+SHOW_SOURCELINK = False
+WRITE_TAG_CLOUD = False
