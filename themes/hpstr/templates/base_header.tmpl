@@ -2,15 +2,13 @@
 <%namespace name="base" file="base_helper.tmpl" import="*"/>
 
 <%def name="html_header()">
-${html_navigation_links()}
 <div class="entry-header">
-<!-- FIXME: get credit from settings -->
-  <div class="image-credit">Image source: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
     <div class="entry-image">
-      <img src="//mmistakes.github.io/hpstr-jekyll-theme/images/abstract-1.jpg" alt="Latest Posts">
+      <img src="${background_image}" alt="Latest Posts">
     </div><!-- /.entry-image -->
       ${html_site_title()}
 </div><!-- /.entry-header -->
+${html_navigation_links()}
 </%def>
 
 <%def name="html_site_title()">
@@ -18,20 +16,20 @@ ${html_navigation_links()}
     <div class="header-title-wrap">
     <h1 id="brand"><a href="${abs_link(_link("root", None, lang))}" title="${blog_title}" rel="home">
     ${blog_title}</a></h1>
-      <h2>${title}</h2>
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </%def>
 
 <%def name="html_navigation_links()">
-    <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
-    <button class="dl-trigger">Open Menu</button>
-    <ul class="dl-menu">
+  <div >
+    <nav role="navigation">
+
+    <ul>
     %for url, text in navigation_links[lang]:
         % if isinstance(url, tuple):
             <li>
                 <a href="#">${text}</a>
-                <ul class="dl-submenu">
+                <ul >
                 %for suburl, text in url:
                     <li><a href="${suburl}">${text}</a></li>
                 %endfor
@@ -44,6 +42,7 @@ ${html_navigation_links()}
     ${template_hooks['menu_alt']()}
     </ul>
     </nav>
+  </div>
 </%def>
 
 <%def name="html_translation_header()">

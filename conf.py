@@ -1404,7 +1404,7 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {"background_image": "/images/header-bg.webp"}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
