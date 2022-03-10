@@ -62,7 +62,6 @@ phpserialize==1.3
 pickleshare==0.7.5
 piexif==1.1.3
 Pillow==9.0.1
-pip==21.3.1
 platformdirs==2.5.1
 prometheus-client==0.13.1
 prompt-toolkit==3.0.28
@@ -78,12 +77,12 @@ pyrsistent==0.18.1
 PyRSS2Gen==1.1
 python-dateutil==2.8.2
 pytz==2021.3
+PyYAML==6.0
 pyzmq==22.3.0
 requests==2.27.1
 ruamel.yaml==0.17.21
 ruamel.yaml.clib==0.2.6
 Send2Trash==1.8.0
-setuptools==60.5.0
 six==1.16.0
 smartypants==2.0.1
 stack-data==0.2.0
@@ -100,7 +99,6 @@ urllib3==1.26.8
 watchdog==2.1.6
 wcwidth==0.2.5
 webencodings==0.5.1
-wheel==0.37.1
 Yapsy==1.12.2
 yarl==1.7.2
 zipp==3.7.0
