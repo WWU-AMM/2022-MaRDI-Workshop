@@ -1408,7 +1408,7 @@ GLOBAL_CONTEXT = {
     "background_image": "/images/header-bg.webp",
     "header_logo": "/images/MaRDI_Logo_S_5_rgb.svg",
     "FOOTER_LOGOS": [
-        ("/images/MaRDI_Logo_S_5_rgb.svg", "MaRDI"),
+        ("/images/WWUMuenster_Logo_2021_rgb.svg", "WWU Münster"),
         ("/images/MM_Logo_2018_rgb.svg", "Münster Mathematics"),
         ("/images/mpi_magdeburg.svg", "Max Planck Institute Magdeburg"),
     ],
