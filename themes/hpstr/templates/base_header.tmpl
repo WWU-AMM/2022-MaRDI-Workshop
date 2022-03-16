@@ -2,21 +2,21 @@
 <%namespace name="base" file="base_helper.tmpl" import="*"/>
 
 <%def name="html_header()">
-<div class="entry-header">
-    <div class="entry-image">
-      <img src="${background_image}" alt="Latest Posts">
-    </div><!-- /.entry-image -->
-      ${html_site_title()}
-</div><!-- /.entry-header -->
+${html_site_title()}
 ${html_navigation_links()}
 </%def>
 
 <%def name="html_site_title()">
-  <div class="header-title">
-    <div class="header-title-wrap">
-    <h1 id="brand"><a href="${abs_link(_link("root", None, lang))}" title="${blog_title}" rel="home">
-    ${blog_title}</a></h1>
-    </div><!-- /.header-title-wrap -->
+  <div class="header-table">
+    <div class="header-logo header-col">
+      <img src="${header_logo}" alt="Header Logo">
+    </div><!-- /.header-logo -->
+    <div class="header-title header-col">
+
+      <h1 id="brand"><a href="${abs_link(_link("root", None, lang))}" title="${blog_title}" rel="home">
+      ${blog_title}</a></h1>
+
+    </div><!-- /.header-title -->
   </div><!-- /.header-title -->
 </%def>
 

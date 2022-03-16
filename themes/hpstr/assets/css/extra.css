@@ -91,7 +91,107 @@ nav ul {
 }
 
 #footer-logos img {
-        object-fit: cover;
-        max-height: 100px;
-        margin: 0 40px 0 40px;
-    }
+  object-fit: cover;
+  max-height: 100px;
+  margin: 0 40px 0 40px;
+}
+
+.header-table {
+  display: flex;
+}
+.header-col {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  min-height: 300px;
+}
+
+.header-logo {
+  background-color: #0288d1;
+  max-width: 320px;
+}
+.header-logo img {
+  min-width: 220px;
+  padding: 0 20px 0 20px;
+}
+
+.header-title {
+  background: url("/images/header-bg.webp") center;
+  background-size: cover;
+  text-align: left;
+}
+
+.header-title h1 {
+  margin: auto auto auto 20px;
+  font-weight: 700;
+  font-size: 32px;
+  font-size: 2rem;
+  color: rgba(85, 85, 85, 0.8);
+}
+@media only screen and (min-width: 48em) {
+  .header-title h1 {
+    font-size: 48px;
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  .header-title h1 {
+    font-size: 60px;
+    font-size: 3.75rem;
+  }
+}
+/* .header-title h2 {
+  margin: 0;
+  font-size: 18px;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: rgba(136, 136, 136, 0.8);
+}
+@media only screen and (min-width: 48em) {
+  .header-title h2 {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+} */
+.header-title p {
+  color: rgba(85, 85, 85, 0.8);
+}
+ .header-title {
+  /* position: absolute; */
+  /* top: 0; */
+  /* display: table; */
+  /* margin-top: 0; */
+  /* margin: auto; */
+  /* width: 100%; */
+  /* height: 400px; */
+  /* overflow: hidden; */
+}
+ .header-title .header-title-wrap {
+  /* display: table-cell; */
+  /* vertical-align: middle; */
+  /* margin: 0 auto; */
+  /* text-align: center; */
+}
+ .header-title h1 {
+  /* margin: 10px; */
+  font-weight: 700;
+  /* margin: 10px 60px; */
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+}
+ .header-title h1 a {
+  color: #fff;
+}
+ /* .header-title h2 {
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+} */
+@media only screen and (min-width: 48em) {
+.header-title h2 a {
+    color: #fff;
+  }
+}
+.header-title p {
+  color: #fff;
+}
