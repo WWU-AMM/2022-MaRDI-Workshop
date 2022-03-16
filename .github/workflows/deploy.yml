@@ -11,4 +11,4 @@ jobs:
     - name: Build and Deploy Nikola
       uses: WWU-AMM/nikola-action@v4.0.1
       with:
-        dry_run: false
+        dry_run: ${{ github.ref_name != 'main' }}
