@@ -1,4 +1,4 @@
-Sitemap: https://WORKSHOP_URL/sitemapindex.xml
+Sitemap: https://workshop.mardi.ovh/sitemapindex.xml
 
 User-Agent: *
-Host: WORKSHOP_URL
+Host: workshop.mardi.ovh

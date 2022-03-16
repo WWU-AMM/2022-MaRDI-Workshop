@@ -6,11 +6,11 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://WORKSHOP_URL/rss.xml</loc>
-  <lastmod>2022-03-16T17:17:00Z</lastmod>
+  <loc>https://workshop.mardi.ovh/rss.xml</loc>
+  <lastmod>2022-03-16T17:57:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://WORKSHOP_URL/sitemap.xml</loc>
-  <lastmod>2022-03-16T17:17:00Z</lastmod>
+  <loc>https://workshop.mardi.ovh/sitemap.xml</loc>
+  <lastmod>2022-03-16T17:57:00Z</lastmod>
  </sitemap>
 </sitemapindex>
