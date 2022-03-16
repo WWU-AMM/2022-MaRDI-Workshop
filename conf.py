@@ -20,7 +20,7 @@ BLOG_AUTHOR = "WORKSHOP_AUTHOR"  # (translatable)
 BLOG_TITLE = "Workshop on Scientific Computing"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://WORKSHOP_URL/"
+SITE_URL = "https://workshop.mardi.ovh/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://WORKSHOP_URL/"
