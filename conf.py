@@ -16,7 +16,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "WORKSHOP_AUTHOR"  # (translatable)
+BLOG_AUTHOR = "mardi.workshop@wwu.de"  # (translatable)
 BLOG_TITLE = "Workshop on Scientific Computing"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -24,7 +24,7 @@ SITE_URL = "https://workshop.mardi.ovh/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://WORKSHOP_URL/"
-BLOG_EMAIL = "WORKSHOP_EMAIL"
+BLOG_EMAIL = "mardi.workshop@wwu.de"
 BLOG_DESCRIPTION = "WORKSHOP_DESCRIPTION"  # (translatable)
 
 # Nikola is multilingual!
@@ -142,10 +142,10 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/registration/", "Registration"),
+        ("/", "Home"),
+        ("/participate/", "Participate"),
         ("/program/", "Program"),
         ("/venue/", "Venue"),
-        ("/contact/", "Contact"),
     ),
 }
 
