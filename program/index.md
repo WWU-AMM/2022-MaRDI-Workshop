@@ -20,7 +20,7 @@ The workshop will start on Wednesday 26.10.2022 around
 - [Hartwig Anzt](https://hartwiganzt.github.io/), Karlsruhe Institute of Technology, Germany
 - [Benjamin Uekermann](https://www.simtech.uni-stuttgart.de/exc/people/Uekermann/), University of Stuttgart, Germany
 - [Andrea Walther](https://www.mathematik.hu-berlin.de/de/forschung/forschungsgebiete/mathematische-optimierung/andrea-walther), Humboldt-Universität zu Berlin, Germany
-
+- [Tyrone Rees](https://www.numerical.rl.ac.uk/people/rees/), STFC Rutherford Appleton Laboratory, United Kingdom
 
 ## Detailed schedule
 
