@@ -21,6 +21,7 @@ The workshop will start on Wednesday 26.10.2022 around
 - [Benjamin Uekermann](https://www.simtech.uni-stuttgart.de/exc/people/Uekermann/), University of Stuttgart, Germany
 - [Andrea Walther](https://www.mathematik.hu-berlin.de/de/forschung/forschungsgebiete/mathematische-optimierung/andrea-walther), Humboldt-Universität zu Berlin, Germany
 - [Tyrone Rees](https://www.numerical.rl.ac.uk/people/rees/), STFC Rutherford Appleton Laboratory, United Kingdom
+- [Christoph Lehrenfeld](https://cpde.math.uni-goettingen.de/en/members/CLehrenfeld/index.html), Georg-August-Universität Göttingen, Germany
 
 ## Detailed schedule
 
