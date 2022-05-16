@@ -15,7 +15,10 @@ Only transport and accomodation need to be paid by the participant.
 
 # Submit an abstract
 
-Abstract submission will open soon.
+Please submit your abstract via [Indico](https://wwuindico.uni-muenster.de/event/1180/abstracts/).
+You will need to create an account for that.
+
+Abstract submission closes **31.07.2022**.
 
 # Contact
 
