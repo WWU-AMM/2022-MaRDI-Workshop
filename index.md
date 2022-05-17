@@ -26,4 +26,4 @@ With this first MaRDI Workshop on Scientific Computing, we want to bring togethe
 
 Participants are encouraged to present work in progress, open problems or report on personal experiences.
 
-Abstract submission will open soon.
+[Abstract submission](/participate) is open until **31.07.2022**.
