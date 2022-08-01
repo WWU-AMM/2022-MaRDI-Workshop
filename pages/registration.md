@@ -20,6 +20,11 @@ You will need to create an account for that.
 
 Abstract submission closes **21.08.2022**.
 
+# Register directly
+
+If you do not want to present anything, but still want to participate, it is now
+possible to directly register [here](https://wwuindico.uni-muenster.de/event/1180/registrations/1422/).
+
 # Contact
 
 If you have any questions or suggestions please email [mardi.workshop@wwu.de](mailto:mardi.workshop@wwu.de)
