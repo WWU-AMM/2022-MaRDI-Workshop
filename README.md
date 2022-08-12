@@ -10,6 +10,12 @@ python3 -m pip install -r requirements.txt
 nikola auto --browser
 ```
 
+or equivalently
+
+```bash
+make
+```
+
 
 ## Github Pages deployment
 
