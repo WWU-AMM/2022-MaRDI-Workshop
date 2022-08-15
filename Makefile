@@ -2,11 +2,13 @@
 THIS_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 CI_COMMIT_REF_NAME?=$(shell git rev-parse --abbrev-ref HEAD)
 
-.PHONY: serve
+.PHONY: serve pages
 
 serve: venv
 	. venv/bin/activate ; nikola auto --browser
 
+pages: venv
+	. venv/bin/activate ; nikola build
 
 venv: venv/setup_by_make
 
