@@ -9,8 +9,8 @@
 .. type: text
 -->
 
-The workshop will start on Wednesday 26.10.2022 around
-10:30h. It will end on Friday 28.10.2022 at 13:00h.
+The workshop will start on Wednesday 26.10.2022 at
+09:00h. It will end on Friday 28.10.2022 at 13:30h.
 
 ## Invited speakers
 
