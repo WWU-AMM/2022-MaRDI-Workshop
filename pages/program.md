@@ -27,4 +27,5 @@ The workshop will start on Wednesday 26.10.2022 at
 
 ## Detailed schedule
 
-Will be announced closer to the workshop date.
+The timetable can be viewed [here](https://wwuindico.uni-muenster.de/event/1180/timetable/#all.detailed).
+The auto-generated book of abstracts is [here](https://wwuindico.uni-muenster.de/event/1180/book-of-abstracts.pdf).
