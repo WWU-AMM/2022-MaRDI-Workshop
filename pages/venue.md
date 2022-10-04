@@ -18,5 +18,5 @@ can be found [here](https://www.uni-muenster.de/MathematicsMuenster/aboutmm/dire
 
 We have reserved room contingents that are available
 for [self booking](https://go.wwu.de/dnkzb).
-You may also find suitable rooms [here](https://bit.ly/MaRDIWorkshop22).
+In case the contingent is exhausted, you may also find suitable rooms [here](https://bit.ly/MaRDIWorkshop22).
 These rooms are paid by the participants themselves.
