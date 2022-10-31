@@ -10,6 +10,7 @@ repos:
       - id: debug-statements
       - id: check-yaml
       - id: check-added-large-files
+        exclude: images/*
       - id: check-executables-have-shebangs
       - id: check-case-conflict
       - id: check-symlinks

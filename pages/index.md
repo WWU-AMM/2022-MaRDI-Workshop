@@ -37,3 +37,5 @@ Participants are encouraged to present work in progress, open problems or report
 - Mario Ohlberger
 - Stephan Rave
 - Jens Saak
+
+<img src="images/MaRDI-Gruppenfoto-DSC_0684.jpg" alt"Group Photo" />
